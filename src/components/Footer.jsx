@@ -43,18 +43,20 @@ const Footer = () => {
         </a>
       </div>
     </div>
-    <footer className="border-t border-gray-100 pt-20 pb-10 px-6">
-      <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto p-12 flex flex-col md:flex-row justify-between items-start gap-8">
-        <div className="space-y-4 flex-1">
-          <div className="text-2xl font-black text-tp-orange h-8 leading-8">
-            TimePay
+    <footer className="border-t border-gray-100">
+      <div className="pt-20 pb-10">
+        <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-start gap-8">
+          <div className="space-y-4">
+            <div className="text-2xl font-black text-tp-orange leading-none h-8">
+              TimePay
+            </div>
+            <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
+              Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
+            </p>
           </div>
-          <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
-            Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
-          </p>
-        </div>
-        <div className="text-gray-400 text-sm font-medium flex-shrink-0 self-center">
-          © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
+          <div className="text-gray-400 text-sm font-medium whitespace-nowrap flex-shrink-0">
+            © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
+          </div>
         </div>
       </div>
     </footer>
@@ -63,6 +65,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
