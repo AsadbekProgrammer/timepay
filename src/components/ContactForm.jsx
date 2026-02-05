@@ -50,7 +50,7 @@ const ContactForm = () => {
 
         {/* Chap tomon: Ma'lumotlar */}
         <div className="flex-1 space-y-8">
-          <h2 className="text-5xl md:text-7xl font-black text-white leading-tight uppercase italic italic-bold">
+          <h2 className="text-2xl md:text-7xl font-black text-white leading-tight uppercase italic-bold">
             Mutaxassis <br />
             <span className="text-tp-orange">maslahati</span>
           </h2>
@@ -142,5 +142,6 @@ const ContactForm = () => {
     </section>
   );
 };
+
 
 export default ContactForm;
