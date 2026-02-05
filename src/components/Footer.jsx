@@ -43,26 +43,47 @@ const Footer = () => {
         </a>
       </div>
     </div>
-    <footer>
-      <div className="bg-[#F9FAFB] max-w-8xl rounded-[32px] mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8 items-center">
-        <div className="space-y-4 flex-shrink-0">
-          <div className="text-2xl font-black text-tp-orange leading-none h-8">
-            TimePay
-          </div>
-          <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
-            Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
-          </p>
-        </div>
-        <div className="text-gray-400 text-sm font-medium whitespace-nowrap flex-shrink-0">
-          © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
-        </div>
+   <footer>
+  {/* 1. w-full: Konteyner to'liq kenglikni egallashini ta'minlaydi.
+      2. overflow-hidden: Agar biron narsa tashqariga chiqsa, layoutni buzmasligi uchun.
+  */}
+  <div className="bg-[#F9FAFB] max-w-8xl w-full rounded-[32px] mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8 items-center overflow-hidden">
+    
+    {/* Chap taraf: Logo va Manzil */}
+    <div className="space-y-4 flex-shrink-0 w-full md:w-auto text-center md:text-left">
+      
+      {/* Logo uchun aniq balandlik (h-8) bor, bu yaxshi. 
+          Lekin width o'ynashini oldini olish uchun width ham berish mumkin yoki shunday qolgani ma'qul. */}
+      <div className="text-2xl font-black text-tp-orange leading-none h-8 flex items-center justify-center md:justify-start">
+        TimePay
       </div>
-    </footer>
+      
+      {/* Manzil matni:
+          - mx-auto md:mx-0: Mobilda markazda, desktopda chapda turishi uchun.
+          - min-h-[40px]: Matn shrift yuklanganda balandlikni o'zgartirmasligi uchun taxminiy minimal balandlik (o'lchab ko'rish kerak).
+      */}
+      <p className="text-gray-400 text-sm max-w-xs leading-relaxed mx-auto md:mx-0 min-h-[2.5rem]">
+        Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
+      </p>
+    </div>
+
+    {/* O'ng taraf: Copyright */}
+    {/* MUHIM O'ZGARISH: 
+        - whitespace-nowrap -> whitespace-normal md:whitespace-nowrap 
+          (Mobilda matn sig'masa pastga tushsin, layoutni buzmasin).
+        - text-center md:text-right: Mobilda markazda tursin.
+    */}
+    <div className="text-gray-400 text-sm font-medium flex-shrink-0 whitespace-normal md:whitespace-nowrap text-center md:text-right">
+      © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
+    </div>
+  </div>
+</footer>
     </>
   );
 };
 
 export default Footer;
+
 
 
 
