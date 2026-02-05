@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       {/* Yuqori qism: Ilovani yuklab olish */}
-      <div className="flex flex-col items-center mb-24">
+      <div className="flex flex-col items-center">
         <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8 text-center">
           Ilovani yuklab oling
         </h3>
@@ -54,6 +54,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
