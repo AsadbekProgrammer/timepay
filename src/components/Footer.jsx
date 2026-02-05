@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <>
       {/* Yuqori qism: Ilovani yuklab olish */}
-      <div className="flex flex-col items-center mb-24 w-full">
+      <div className="flex flex-col items-center mb-24">
         <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8 text-center">
           Ilovani yuklab oling
         </h3>
    
-        <div className="flex flex-wrap justify-center gap-4 w-full px-4">
+        <div className="flex flex-wrap justify-center gap-4 px-4">
           {/* App Store */}
           <a 
             href="https://apps.apple.com/uz/app/timepay-xodimlar-nazorati/id6755515954" 
@@ -52,4 +52,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
