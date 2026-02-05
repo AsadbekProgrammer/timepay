@@ -26,3 +26,8 @@ body {
   font-weight: 900;
   letter-spacing: 0.01em;
 }
+
+footer {
+  contain-intrinsic-size: auto 500px; /* Footer uchun taxminiy 500px joyni oldindan band qiladi */
+  content-visibility: auto; /* Footer ekranga yaqinlashguncha uni render qilishga kuch sarflamaydi */
+}
