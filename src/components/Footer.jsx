@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
       </div>
     </div>
-    <footer className="border-t border-gray-100">
+    <footer>
       <div className="pt-20 pb-10">
         <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-start gap-8">
           <div className="space-y-4">
@@ -65,6 +65,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
