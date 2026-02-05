@@ -47,7 +47,6 @@ const Footer = () => {
       <div className="text-gray-400 text-sm font-medium">
         © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
       </div>
-    </div>
   </footer>
     </>
   );
