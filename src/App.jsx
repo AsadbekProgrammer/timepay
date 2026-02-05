@@ -35,7 +35,6 @@ const scrollToContact = (id) => {
 
 function App() {
   return (
-    <div className="min-h-screen">
       <Navbar scrollToContact={scrollToContact} />
       <Suspense fallback={<Loading />}>
         <Hero scrollToContact={scrollToContact} />
@@ -88,7 +87,6 @@ function App() {
             </div>
           </div>
         </footer>
-    </div>
   );
 }
 
