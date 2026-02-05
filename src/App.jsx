@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 const Hero = lazy(() => import('./components/Hero'));
 const Features = lazy(() => import('./components/Features'));
 const Biometric = lazy(() => import('./components/Biometric'));
@@ -9,6 +8,7 @@ const Roadmap = lazy(() => import('./components/Roadmap'));
 const ServiceDetail = lazy(() => import('./components/ServiceDetail'));
 const ModernApps = lazy(() => import('./components/ModernApps'));
 const ContactForm = lazy(() => import('./components/ContactForm'));
+import Footer from './components/Footer';
 
 const Loading = () => (
   <div className="h-20 w-full flex items-center justify-center text-tp-orange animate-pulse">
