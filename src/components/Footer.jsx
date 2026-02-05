@@ -3,7 +3,7 @@ import { Apple, Play } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 px-6 border-t border-gray-100">
+    <footer className="pt-20 pb-10 px-6 border-t border-gray-100">
   <div className="flex flex-col items-center mb-24 min-h-[200px]">
     <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8">
       Ilovani yuklab oling
@@ -44,7 +44,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* Pastki blok uchun min-height */}
   <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto p-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 min-h-[160px]">
     <div className="space-y-4">
       <div className="text-2xl font-black text-tp-orange h-8">TimePay</div>
@@ -62,6 +61,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
