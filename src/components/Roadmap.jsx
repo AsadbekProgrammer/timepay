@@ -18,7 +18,7 @@ const Roadmap = () => {
 
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 mb-16">
             {/* Katta oq sarlavha */}
-            <h2 className="text-5xl md:text-6xl font-black text-white leading-tight max-w-2xl uppercase tracking-tighter">
+            <h2 className="text-2xl md:text-6xl font-black text-white leading-tight max-w-2xl uppercase tracking-tighter">
               Biznesingizni kelajak bilan <br /> qurollantiring
             </h2>
 
@@ -63,5 +63,6 @@ const Roadmap = () => {
     </section>
   );
 };
+
 
 export default Roadmap;
