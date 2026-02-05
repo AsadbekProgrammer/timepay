@@ -1,5 +1,5 @@
 import React from 'react';
-import { Apple } from 'lucide-react';
+import { Apple, Play } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -49,6 +49,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
