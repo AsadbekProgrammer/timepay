@@ -4,60 +4,54 @@ import { Apple, Play } from 'lucide-react';
 const Footer = () => {
   return (
      <>
-     <footer className="w-full border-t border-gray-100 bg-white">
-  {/* Yuqori qism: Ilova yuklash bo'limi */}
-  <div className="flex flex-col items-center py-16 px-6">
-    <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8 leading-none">
-      Ilovani yuklab oling
-    </h3>
+       <footer className="w-full pt-20 pb-10 px-6 border-t border-gray-100">
+      <div className="flex flex-col items-center mb-24 min-h-[180px]">
+        <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8">
+          Ilovani yuklab oling
+        </h3>
 
-    <div className="flex flex-wrap justify-center gap-4 w-full">
-      {/* App Store tugmasi - Aniq o'lchamlar CLS oldini oladi */}
-      <a 
-        href="https://apps.apple.com/uz/app/..." 
-        className="flex items-center justify-start w-[240px] h-[80px] px-8 bg-[#0F172A] border border-slate-700 rounded-2xl transition-colors hover:bg-slate-800 group"
-      >
-        <div className="flex flex-col">
-          <span className="text-[10px] text-white/60 font-bold uppercase leading-none">Yuklab olish</span>
-          <span className="text-xl text-white font-bold mt-1.5 leading-none">App Store</span>
+        <div className="flex flex-wrap justify-center gap-4">
+          {/* App Store */}
+          <a href="https://apps.apple.com/uz/app/timepay-xodimlar-nazorati/id6755515954" className="bg-[#0F172A] text-white flex items-center gap-4 px-8 py-4 rounded-2xl w-[240px] h-[80px] hover:bg-slate-800 transition-all border border-slate-700">
+            <Apple className="w-8 h-8 hover:text-tp-orange flex-shrink-0" width={32} height={32} />
+            <div className="text-left">
+              <p className="text-[10px] opacity-60 uppercase font-bold">Yuklab olish</p>
+              <p className="text-xl font-bold mt-1">App Store</p>
+            </div>
+          </a>
+
+          {/* Google Play */}
+          <a href="https://play.google.com/store/apps/details?id=uz.timepay.app&hl=uz" className="bg-[#0F172A] text-white flex items-center gap-4 px-8 py-4 rounded-2xl w-[240px] h-[80px] hover:bg-slate-800 transition-all border border-slate-700">
+            <div className="w-8 h-8 hover:text-tp-orange flex-shrink-0">
+              <Play className="w-8 h-8 flex-shrink-0" width={32} height={32} />
+            </div>
+            <div className="text-left">
+              <p className="text-[10px] opacity-60 uppercase font-bold">Yuklab olish</p>
+              <p className="text-xl font-bold mt-1">Google Play</p>
+            </div>
+          </a>
         </div>
-      </a>
-
-      {/* Google Play tugmasi */}
-      <a 
-        href="https://play.google.com/store/..." 
-        className="flex items-center justify-start w-[240px] h-[80px] px-8 bg-[#0F172A] border border-slate-700 rounded-2xl transition-colors hover:bg-slate-800 group"
-      >
-        <div className="flex flex-col">
-          <span className="text-[10px] text-white/60 font-bold uppercase leading-none">Yuklab olish</span>
-          <span className="text-xl text-white font-bold mt-1.5 leading-none">Google Play</span>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  {/* Pastki qism: Brending va Copyright */}
-  <div className="bg-[#F9FAFB] px-6 md:px-12 py-10">
-    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-      <div className="flex flex-col items-center md:items-start space-y-3">
-        {/* Logo uchun balandlik belgilandi */}
-        <div className="text-2xl font-black text-[#ff6b00] h-8 leading-8">TimePay</div>
-        <p className="text-gray-400 text-sm max-w-xs text-center md:text-left leading-relaxed">
-          Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
-        </p>
       </div>
 
-      <div className="text-gray-400 text-xs md:text-sm font-medium text-center">
-        © 2026 TimePay Workforce Ecosystem. <br className="md:hidden" /> Barcha huquqlar himoyalangan.
+      <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto p-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 min-h-[160px]">
+        <div className="space-y-4">
+          <div className="text-2xl font-black text-tp-orange h-8">TimePay</div>
+          <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
+            Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
+          </p>
+        </div>
+
+        <div className="text-gray-400 text-sm font-medium">
+          © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
+        </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
      </> 
   );
 };
 
 export default Footer;
+
 
 
 
