@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Ranglar */
+  --color-tp-orange: #EF9235;
+  --color-tp-dark: #0F172A;
+  --color-tp-bg: #FFFBF5;
+
+  /* Shriftlar */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  color: var(--color-tp-dark);
+}
+
+.custom-bg-gradient {
+  background: linear-gradient(180deg, #FFF7ED 0%, #FFFBF5 40%, #FFFFFF 100%);
+}
+
+.heading {
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
