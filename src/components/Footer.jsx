@@ -1,5 +1,5 @@
 import React from 'react';
-import { Apple, PlayCircle } from 'lucide-react';
+import { Apple, Play } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Google Play */}
           <a href="https://play.google.com/store/apps/details?id=uz.timepay.app&hl=uz" className="bg-[#0F172A] text-white flex items-center gap-4 px-8 py-4 rounded-2xl w-[240px] h-[80px] hover:bg-slate-800 transition-all border border-slate-700">
             <div className="w-8 h-8 hover:text-tp-orange flex-shrink-0">
-              <PlayCircle className="w-8 h-8 flex-shrink-0" width={32} height={32} />
+              <Play className="w-8 h-8 flex-shrink-0" width={32} height={32} />
             </div>
             <div className="text-left">
               <p className="text-[10px] opacity-60 uppercase font-bold">Yuklab olish</p>
@@ -49,3 +49,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
