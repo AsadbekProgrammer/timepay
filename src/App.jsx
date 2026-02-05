@@ -47,6 +47,7 @@ function App() {
         <ModernApps />
         <ContactForm />
       </Suspense>
+      <Footer />
     </>
   );
 }
