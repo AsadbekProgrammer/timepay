@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
 
       {/* Footer qismi */}
-      <footer className="w-full">
+      <footer>
           <div className="bg-[#F9FAFB] w-full rounded-[32px] mx-auto px-6 py-12 md:justify-between gap-8 items-center overflow-hidden text-center">
             <div className="space-y-4 flex-shrink-0 flex flex-col items-center md:items-start w-full md:w-auto">
               <div className="text-2xl font-black text-tp-orange leading-none h-8 flex items-center">
@@ -64,6 +64,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
