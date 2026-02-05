@@ -4,7 +4,7 @@ import { Apple, Play } from 'lucide-react';
 const Footer = () => {
   return (
     <>
-    <div className="flex flex-col items-center mb-24 min-h-[200px]">
+    <div className="flex flex-col items-center mb-24">
       <h3 className="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-8">
         Ilovani yuklab oling
       </h3>
@@ -63,6 +63,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
