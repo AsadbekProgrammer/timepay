@@ -31,13 +31,24 @@ const Footer = () => {
               </a>
             </div>
           </div>
+        <div className="bg-[#F9FAFB]">
+            <div className="space-y-4">
+              <div className="text-2xl font-black text-tp-orange h-8">TimePay</div>
+              <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
+                Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
+              </p>
+            </div>
     
-          
+            <div className="text-gray-400 text-sm font-medium">
+              © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
+            </div>
+          </div>
         </footer>
   );
 };
 
 export default Footer;
+
 
 
 
