@@ -45,7 +45,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact-form" className="py-24 px-6 max-w-7xl min-h-[500px] mx-auto">
+    <section id="contact-form" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="bg-[#0F172A] rounded-[48px] p-8 md:p-16 flex flex-col lg:flex-row gap-16 items-center overflow-hidden">
 
         {/* Chap tomon: Ma'lumotlar */}
@@ -145,5 +145,6 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
 
 
