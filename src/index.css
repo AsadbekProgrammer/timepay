@@ -10,6 +10,10 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
+* {
+  font-display: swap !important;
+}
+
 body {
   color: var(--color-tp-dark);
 }
