@@ -44,19 +44,9 @@ const Footer = () => {
       </div>
 
       {/* Footer qismi */}
-      <footer>
+      <footer className="w-full px-4 md:px-6 pb-6">
           <div className="bg-[#F9FAFB] w-full rounded-[32px] mx-auto px-6 py-12 md:justify-between gap-8 items-center overflow-hidden text-center">
-            <div className="space-y-4 flex-shrink-0 flex flex-col items-center md:items-start w-full md:w-auto">
-              <div className="text-2xl font-black text-tp-orange leading-none h-8 flex items-center">
-                TimePay
-              </div>
-              <p className="text-gray-400 text-sm max-w-xs leading-relaxed mx-auto md:mx-0">
-                Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
-              </p>
-            </div>
-            <div className="text-gray-400 text-sm font-medium whitespace-normal md:whitespace-nowrap flex-shrink-0 text-center md:text-right w-full md:w-auto">
-              © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
-            </div>
+            
         </div>
       </footer>
     </>
@@ -64,6 +54,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
