@@ -35,6 +35,7 @@ const scrollToContact = (id) => {
 
 function App() {
   return (
+    <>
       <Navbar scrollToContact={scrollToContact} />
       <Suspense fallback={<Loading />}>
         <Hero scrollToContact={scrollToContact} />
@@ -46,6 +47,7 @@ function App() {
         <ModernApps />
         <ContactForm />
       </Suspense>
+    </>
   );
 }
 
