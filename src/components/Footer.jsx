@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
     </div>
     <footer>
-      <div className="bg-[#F9FAFB] max-w-8xl rounded-[32px] mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8 md:items-center">
+      <div className="bg-[#F9FAFB] max-w-8xl rounded-[32px] mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-8 items-center">
         <div className="space-y-4 flex-shrink-0">
           <div className="text-2xl font-black text-tp-orange leading-none h-8">
             TimePay
@@ -63,6 +63,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
