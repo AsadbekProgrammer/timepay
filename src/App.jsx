@@ -37,16 +37,18 @@ function App() {
   return (
     <>
       <Navbar scrollToContact={scrollToContact} />
-      <Suspense fallback={<Loading />}>
-        <Hero scrollToContact={scrollToContact} />
-        <Features />
-        <Biometric />
-        <Integration />
-        <Roadmap />
-        <ServiceDetail />
-        <ModernApps />
-        <ContactForm />
-      </Suspense>
+      <main className="min-h-screen">
+        <Suspense fallback={<Loading />}>
+          <Hero scrollToContact={scrollToContact} />
+          <Features />
+          <Biometric />
+          <Integration />
+          <Roadmap />
+          <ServiceDetail />
+          <ModernApps />
+          <ContactForm />
+        </Suspense>
+      </main>
       <Footer />
     </>
   );
