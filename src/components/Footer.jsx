@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-4">
               {/* App Store */}
               <a href="https://apps.apple.com/uz/app/timepay-xodimlar-nazorati/id6755515954" className="bg-[#0F172A] text-white flex items-center gap-4 px-8 py-4 rounded-2xl w-[240px] h-[80px] hover:bg-slate-800 transition-all border border-slate-700">
-                <Apple className="w-8 h-8 hover:text-tp-orange flex-shrink-0" width={32} height={32} />
+                {/*<Apple className="w-8 h-8 hover:text-tp-orange flex-shrink-0" width={32} height={32} />*/}
                 <div className="text-left">
                   <p className="text-[10px] opacity-60 uppercase font-bold">Yuklab olish</p>
                   <p className="text-xl font-bold mt-1">App Store</p>
@@ -22,7 +22,7 @@ const Footer = () => {
               {/* Google Play */}
               <a href="https://play.google.com/store/apps/details?id=uz.timepay.app&hl=uz" className="bg-[#0F172A] text-white flex items-center gap-4 px-8 py-4 rounded-2xl w-[240px] h-[80px] hover:bg-slate-800 transition-all border border-slate-700">
                 <div className="w-8 h-8 hover:text-tp-orange flex-shrink-0">
-                  <Play className="w-8 h-8 flex-shrink-0" width={32} height={32} />
+                  {/*<Play className="w-8 h-8 flex-shrink-0" width={32} height={32} />*/}
                 </div>
                 <div className="text-left">
                   <p className="text-[10px] opacity-60 uppercase font-bold">Yuklab olish</p>
@@ -48,6 +48,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
