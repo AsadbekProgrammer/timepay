@@ -31,3 +31,120 @@ footer {
   contain-intrinsic-size: auto 500px; /* Footer uchun taxminiy 500px joyni oldindan band qiladi */
   content-visibility: visible; /* Footer ekranga yaqinlashguncha uni render qilishga kuch sarflamaydi */
 }
+
+
+
+
+.main-footer {
+  width: 100%;
+  border-top: 1px solid #f3f4f6;
+  font-family: sans-serif;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px 96px;
+}
+
+.section-title {
+  font-size: 10px;
+  font-weight: 900;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 32px;
+}
+
+.store-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.store-btn {
+  background: #0f172a;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 32px;
+  width: 240px;
+  height: 80px;
+  border-radius: 16px;
+  border: 1px solid #334155;
+  transition: all 0.3s ease;
+}
+
+.store-btn:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+}
+
+.store-btn .icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.store-btn:hover .icon {
+  color: #ff6b00; /* TimePay Orange */
+}
+
+.btn-text span {
+  display: block;
+  font-size: 10px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.btn-text strong {
+  display: block;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.bottom-footer {
+  background: #f9fafb;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ff6b00;
+  margin-bottom: 16px;
+}
+
+.address {
+  color: #9ca3af;
+  font-size: 14px;
+  max-width: 320px;
+  line-height: 1.6;
+}
+
+.copyright {
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Mobil moslashuvchanlik */
+@media (max-width: 768px) {
+  .bottom-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+  }
+}
