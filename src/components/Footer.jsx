@@ -44,7 +44,6 @@ const Footer = () => {
       </div>
     </div>
     <footer>
-      <div className="pt-20 pb-10">
         <div className="bg-[#F9FAFB] max-w-8xl rounded-b-2xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-start gap-8">
           <div className="space-y-4">
             <div className="text-2xl font-black text-tp-orange leading-none h-8">
@@ -58,13 +57,13 @@ const Footer = () => {
             © 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
           </div>
         </div>
-      </div>
     </footer>
     </>
   );
 };
 
 export default Footer;
+
 
 
 
