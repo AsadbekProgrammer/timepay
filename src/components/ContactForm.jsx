@@ -116,7 +116,7 @@ const ContactForm = () => {
     </div>
 
     {/* Submit tugmasi */}
-    <button className="w-full rounded-2xl relative group/btn overflow-hidden">
+    <button className="w-full cursor-pointer rounded-2xl relative group/btn overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-tp-orange to-orange-600 transition-all duration-300 group-hover/btn:scale-105"></div>
       <div className="relative flex items-center justify-center gap-3 py-5 px-6 text-white font-black uppercase tracking-widest text-sm italic transition-transform active:scale-95">
         Qo'ng'iroqni buyurtma qilish
@@ -190,6 +190,7 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
 
 
 
