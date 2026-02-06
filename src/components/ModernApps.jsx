@@ -5,12 +5,12 @@ const ModernApps = () => {
     {
       title: "Rahbar Paneli",
       desc: "Budjetlar, grafiklar va real vaqtdagi hisobotlar ustidan to'liq nazorat.",
-      placeholder: "Interfeys ko'rinishi"
+      placeholder: "employee.webp"
     },
     {
       title: "Xodim Portali",
       desc: "Shaxsiy davomat, bonuslar va dam olish kunlari haqida ma'lumot.",
-      placeholder: "Interfeys ko'rinishi"
+      placeholder: "employers.webp"
     }
   ];
 
@@ -37,10 +37,10 @@ const ModernApps = () => {
               </p>
             </div>
 
-            {/* Interfeys uchun kulrang joy (Placeholder) */}
+            
             <div className="aspect-[16/10] bg-gray-50 rounded-[24px] flex items-center justify-center border border-dashed border-gray-200 group-hover:bg-gray-100 transition-colors">
               <span className="text-gray-500 font-medium italic uppercase tracking-widest text-sm">
-                {app.placeholder}
+                <img src="/public/{app.placeholder}" alt="{app.title}" />
               </span>
             </div>
           </div>
@@ -49,5 +49,6 @@ const ModernApps = () => {
     </section>
   );
 };
+
 
 export default ModernApps;
