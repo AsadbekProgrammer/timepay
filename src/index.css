@@ -18,6 +18,13 @@ body {
   color: var(--color-tp-dark);
 }
 
+img {
+  width: 350px;
+  height: 290px;
+  object-fit: contain; 
+  background-color: #f5f5f5; 
+}
+
 .custom-bg-gradient {
   background: linear-gradient(180deg, #FFF7ED 0%, #FFFBF5 40%, #FFFFFF 100%);
 }
