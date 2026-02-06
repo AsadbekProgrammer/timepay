@@ -38,7 +38,7 @@ const ModernApps = () => {
             </div>
 
             
-            <div className="aspect-[16/10] bg-gray-50 rounded-[24px] flex items-center justify-center border border-dashed border-gray-200 group-hover:bg-gray-100 transition-colors">
+            <div className="aspect-[16/10] rounded-[24px] flex items-center justify-center">
                 <img src={app.placeholder} alt={app.title} width="350" height="290" />
             </div>
           </div>
@@ -50,6 +50,7 @@ const ModernApps = () => {
 
 
 export default ModernApps;
+
 
 
 
