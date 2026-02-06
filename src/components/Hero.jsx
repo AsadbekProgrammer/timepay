@@ -12,7 +12,7 @@ const Hero = (props) => {
       {/* Sarlavha */}
       <h1 className="text-5xl md:text-[85px] font-black leading-[0.95] max-w-5xl text-tp-dark tracking-tighter mb-8">
         Rahbarlarga <br />
-        <span className="text-tp-orange">xodimlarni boshqarishga</span> yordam beradigan <br /> dastur
+        <span className="text-tp-orange">Xodimlarni boshqarishga</span> Yordam beradigan <br /> dastur
       </h1>
 
       {/* Ta'rif */}
@@ -57,3 +57,4 @@ const Hero = (props) => {
 
 
 export default Hero;
+
