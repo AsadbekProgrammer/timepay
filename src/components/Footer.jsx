@@ -37,12 +37,12 @@ const Footer = () => {
         <div className="space-y-4">
           <div className="text-2xl font-black text-tp-orange h-8">TimePay</div>
           <p className="text-gray-600 text-sm max-w-lg leading-relaxed">
-            <MapPin /> Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
+            <MapPin className="inline" /> Toshkent shahri, Yunusobod tumani, Yangi Shahar ko'chasi
           </p>
         </div>
 
         <div className="text-gray-600 text-sm font-medium">
-          © 2026 TimePay Workforce Ecosystem. <Copyright /> Barcha huquqlar himoyalangan.
+          <Copyright className="inline" /> 2026 TimePay Workforce Ecosystem. Barcha huquqlar himoyalangan.
         </div>
       </div>
     </footer>
@@ -51,6 +51,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
