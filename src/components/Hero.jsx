@@ -11,8 +11,8 @@ const Hero = (props) => {
 
       {/* Sarlavha */}
       <h1 className="text-5xl md:text-[85px] font-black leading-[0.95] max-w-5xl text-tp-dark tracking-tighter mb-8">
-        Biznesingizda <br />
-        <span className="text-tp-orange">Shaffof Nazoratni</span> Yo'lga <br /> Qo'ying
+        Rahbarlarga <br />
+        <span className="text-tp-orange">xodimlarni boshqarishga</span> yordam beradigan <br /> dastur
       </h1>
 
       {/* Ta'rif */}
@@ -50,13 +50,10 @@ const Hero = (props) => {
           <div className="text-5xl font-black text-tp-dark">24/7</div>
           <div className="text-[15px] text-gray-400 font-bold uppercase italic mt-1">Jonli texnik yordam</div>
         </div>
-        <div>
-          <div className="text-5xl font-black text-tp-dark">Tayyor</div>
-          <div className="text-[15px] text-gray-400 font-bold uppercase italic mt-2">To'liq sozlash xizmati</div>
-        </div>
       </div>
     </section>
   );
 };
+
 
 export default Hero;
