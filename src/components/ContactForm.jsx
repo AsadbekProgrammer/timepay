@@ -85,20 +85,20 @@ const ContactForm = () => {
   <form className="relative z-10 space-y-8">
     {/* Ism familiya qatori */}
     <div className="space-y-3">
-      <label className="block text-[10px] font-black text-tp-orange/80 uppercase italic tracking-[0.2em] ml-2">
+      <label className="block text-[10px] font-black text-white uppercase tracking-[0.2em] ml-2">
         Ism-familiyangiz
       </label>
       <input 
         required 
         placeholder="Masalan: Aziz Rahimov" 
-        className="w-full bg-white/5 border border-white/10 rounded-2xl py-5 px-6 focus:ring-2 focus:ring-tp-orange/50 focus:border-tp-orange/50 transition-all outline-none text-white placeholder:text-gray-500 font-medium hover:bg-white/10"
+        className="w-full bg-white/5 border border-white/10 rounded-2xl py-5 px-6 focus:ring-2 focus:ring-tp-white focus:border-tp-white transition-all outline-none text-white placeholder:text-gray-500 font-medium hover:bg-white/10"
         type="text" 
       />
     </div>
 
     {/* Telefon raqami qatori */}
     <div className="space-y-3">
-      <label className="block text-[10px] font-black text-tp-orange/80 uppercase italic tracking-[0.2em] ml-2">
+      <label className="block text-[10px] font-black text-white uppercase tracking-[0.2em] ml-2">
         Telefon raqamingiz
       </label>
       <div className="relative group/input">
@@ -109,7 +109,7 @@ const ContactForm = () => {
           required 
           placeholder="90 123 45 67" 
           maxlength="9" 
-          className="w-full bg-white/5 border border-white/10 rounded-2xl py-5 pl-24 pr-6 focus:ring-2 focus:ring-tp-orange/50 focus:border-tp-orange/50 transition-all outline-none text-white placeholder:text-gray-500 font-medium hover:bg-white/10"
+          className="w-full bg-white/5 border border-white/10 rounded-2xl py-5 pl-24 pr-6 focus:ring-2 focus:ring-white focus:border-white transition-all outline-none text-white placeholder:text-gray-500 font-medium hover:bg-white/10"
           type="tel" 
         />
       </div>
@@ -118,7 +118,7 @@ const ContactForm = () => {
     {/* Submit tugmasi */}
     <button className="w-full relative group/btn overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-tp-orange to-orange-600 transition-all duration-300 group-hover/btn:scale-105"></div>
-      <div className="relative flex items-center justify-center gap-3 py-5 px-6 text-white font-black uppercase tracking-widest text-sm italic transition-transform active:scale-95">
+      <div className="relative flex items-center justify-center gap-3 py-5 px-6 text-white font-black uppercase rounded-2xl tracking-widest text-sm italic transition-transform active:scale-95">
         Qo'ng'iroqni buyurtma qilish
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right group-hover/btn:translate-x-2 transition-transform">
           <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
@@ -190,6 +190,7 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
 
 
 
