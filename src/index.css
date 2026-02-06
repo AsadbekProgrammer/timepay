@@ -22,7 +22,7 @@ img {
   width: 350px;
   height: 290px;
   object-fit: contain; 
-  background-color: #f5f5f5; 
+  background-color: #fff; 
 }
 
 .custom-bg-gradient {
