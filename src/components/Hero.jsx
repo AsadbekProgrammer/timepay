@@ -37,7 +37,7 @@ const Hero = (props) => {
       </div>
 
       {/* Statistika Paneli */}
-      <div className="bg-white grid grid-cols-2 md:grid-cols-4 gap-12 border-t border-gray-100 pt-12 w-full max-w-5xl">
+      <div className="bg-white grid grid-cols-2 md:grid-cols-3 gap-12 border-t border-gray-100 pt-12 w-full max-w-5xl">
         <div>
           <div className="text-5xl font-black text-tp-dark">500+</div>
           <div className="text-[15px] text-gray-400 font-bold uppercase italic mt-1">Hamkor Tashkilotlar</div>
@@ -57,4 +57,5 @@ const Hero = (props) => {
 
 
 export default Hero;
+
 
