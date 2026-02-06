@@ -40,7 +40,7 @@ const ModernApps = () => {
             
             <div className="aspect-[16/10] bg-gray-50 rounded-[24px] flex items-center justify-center border border-dashed border-gray-200 group-hover:bg-gray-100 transition-colors">
               <span className="text-gray-500 font-medium italic uppercase tracking-widest text-sm">
-                <img src="/public/{app.placeholder}" alt="{app.title}" />
+                <img src=`/public/${app.placeholder}` alt=`${app.title}` />
               </span>
             </div>
           </div>
@@ -52,3 +52,4 @@ const ModernApps = () => {
 
 
 export default ModernApps;
+
