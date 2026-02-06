@@ -116,9 +116,9 @@ const ContactForm = () => {
     </div>
 
     {/* Submit tugmasi */}
-    <button className="w-full relative group/btn overflow-hidden">
+    <button className="w-full rounded-2xl relative group/btn overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-tp-orange to-orange-600 transition-all duration-300 group-hover/btn:scale-105"></div>
-      <div className="relative flex items-center justify-center gap-3 py-5 px-6 text-white font-black uppercase rounded-2xl tracking-widest text-sm italic transition-transform active:scale-95">
+      <div className="relative flex items-center justify-center gap-3 py-5 px-6 text-white font-black uppercase tracking-widest text-sm italic transition-transform active:scale-95">
         Qo'ng'iroqni buyurtma qilish
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right group-hover/btn:translate-x-2 transition-transform">
           <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
@@ -190,6 +190,7 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
 
 
 
